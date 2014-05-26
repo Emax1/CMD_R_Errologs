@@ -14,6 +14,8 @@ mdl1<-lm(datos[,1] ~ datos[,2] )
 #m1<-lm(y~x)
 m1<-lm(Tiempo ~ Temperatura )
 #Grafico de Disperción plot(x,y)
+#Temperatura -> Variable Dependiente
+#Tiempo -> Variable Independietne
 plot(Temperatura,Tiempo)
 #Tamaño, modificar Escala
 plot(x,y,xlim=c(0,250),ylim=c(0,250))
